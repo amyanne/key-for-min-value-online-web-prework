@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
        low_num = current_age
     end
 end
-current_age
+
 end
