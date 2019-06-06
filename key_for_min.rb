@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
    
     if name && num < low_num
        low_num = name_hash[name]
-       binding.pry
+       low_name = name
     end
 end
 
