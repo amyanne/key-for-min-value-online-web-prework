@@ -4,10 +4,9 @@ require "pry"
 def key_for_min_value(name_hash)
   low_name, low_num = name_hash.first
   name_hash.each do |name, num|
-    current_age= name_hash[name]
    
-    if current_age < low_num
-       low_num = current_age
+    if num < low_num
+       low_num = name_hash[name]
     end
 end
 low_num
