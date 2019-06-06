@@ -6,8 +6,8 @@ def key_for_min_value(name_hash)
   name_hash.each do |name, num|
     current_name, current_age = name_hash[name]
     if current_age < low_num
-       low_num = current
-      
+       low_num = current_age
+      low_name = current_name      
     end
 end
 current 
